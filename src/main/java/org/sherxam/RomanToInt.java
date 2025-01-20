@@ -3,8 +3,8 @@ package org.sherxam;
 import java.util.List;
 import java.util.Map;
 
-public class SolutionRomanToInt {
-    public static final Map<Character, Integer> NUMBER_MAP = Map.of(
+public class RomanToInt {
+    private static final Map<Character, Integer> NUMBER_MAP = Map.of(
             'I', 1,
             'V', 5,
             'X', 10,
